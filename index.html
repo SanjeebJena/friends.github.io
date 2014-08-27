@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">Join Friends and Find Yourself</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">Join the pics and get to the <strong>friends title! Like &nbsp;&nbsp;</strong><img src="tile-sets/friends/2048.jpg"/>&nbsp;</p>
+      <a class="restart-button">Start Matching</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">NOTE:</strong> Click on 'Start Match'.Use your <strong>arrow keys</strong> to move the pics. When two same pics touch, they <strong>merge into other friend!</strong>
+    </p>
+    <hr>
+	<p>
+		<strong>Friends in the Game</strong><br><br>&nbsp;<img src="tile-sets/friends/2.jpg" alt="Sanjeeb"/>
+				&nbsp;<img src="tile-sets/friends/4.jpg" alt="Sambit"/>
+				&nbsp;<img src="tile-sets/friends/8.jpg" alt="Badal"/>
+				&nbsp;<img src="tile-sets/friends/16.jpg" alt="Satish"/>
+				&nbsp;<img src="tile-sets/friends/32.jpg" alt="Padmaja"/>
+				&nbsp;<img src="tile-sets/friends/64.jpg" alt="Ananta"/>
+				&nbsp;<img src="tile-sets/friends/128.jpg" alt="Tapu"/>
+				&nbsp;<img src="tile-sets/friends/256.jpg" alt="Vinisha"/>
+				&nbsp;<img src="tile-sets/friends/512.jpg" alt="Harnit"/>
+				&nbsp;<img src="tile-sets/friends/1024.jpg" alt="Tarun"/>
+	</p>
+    
+    <hr>
+    
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>

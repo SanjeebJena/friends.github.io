@@ -1,4 +1,1 @@
-friends.github.io
-=================
-
-friends-2048 game
+This is for fun within friends
